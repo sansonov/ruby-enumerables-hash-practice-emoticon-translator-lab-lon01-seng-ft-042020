@@ -7,7 +7,7 @@ def load_library(file)
   hash = {}
   data.each do |key, value|
     hash[key] = {}
-    
+    binding.pry
       hash[key] = {:english => value[0], :japanese => value[1]}
     #binding.pry
       end
@@ -19,7 +19,7 @@ def get_japanese_emoticon(file, eng)
   hash.each do |key, value|
     #binding.pry
     if hash[key][:english] == (eng)
-      binding.pry
+      #binding.pry
         return hash[key][:japanese]
     end
   end
