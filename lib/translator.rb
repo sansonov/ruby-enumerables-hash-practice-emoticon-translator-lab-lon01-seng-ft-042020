@@ -22,11 +22,11 @@ def get_japanese_emoticon(file, eng)
         return hash[key][:japanese]
     end
   end
-<<<<<<< HEAD
+
   return "Sorry, that emoticon was not found"
-=======
+
   return 
->>>>>>> 53d4aa4d645651ae1db1e1b6978ec847d37b123d
+
 end
 
 def get_english_meaning(file, jap)
