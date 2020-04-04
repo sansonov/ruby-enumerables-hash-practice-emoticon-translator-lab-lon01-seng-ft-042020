@@ -19,6 +19,7 @@ def get_japanese_emoticon(file, eng)
   hash.each do |key, value|
     #binding.pry
     if hash[key][:english] == (eng)
+      binding.pry
         return hash[key][:japanese]
     end
   end
