@@ -7,7 +7,7 @@ def load_library(file)
   hash = {}
   data.each do |key, value|
     hash[key] = {}
-    
+    binding.pry
       hash[key] = {:english => value[0], :japanese => value[1]}
     #binding.pry
       end
